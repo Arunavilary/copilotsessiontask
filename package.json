@@ -1,0 +1,22 @@
+{
+  "name": "copilotsessiontask",
+  "version": "1.0.0",
+  "description": "Repo to submit copilot session task as part of GenAI training calicut QA internal",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arunavilary/copilotsessiontask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arunavilary/copilotsessiontask/issues"
+  },
+  "homepage": "https://github.com/Arunavilary/copilotsessiontask#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2"
+  }
+}
