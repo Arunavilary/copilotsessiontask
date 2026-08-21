@@ -1,0 +1,20 @@
+{
+  "name": "playwright-ecommerce-framework",
+  "version": "1.0.0",
+  "description": "Playwright E2E automation framework for E-Commerce web testing",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "lint": "eslint . --ext .js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-playwright": "^1.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
