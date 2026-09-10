@@ -1,0 +1,14 @@
+{
+  "name": "playwright-demo-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright demo framework for browser automation testing",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "dotenv": "^17.4.2"
+  }
+}
